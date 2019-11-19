@@ -1,0 +1,16 @@
+spring:
+  resources:
+    static-locations: classpath:static/, file:/mnt/magus/storage/Notation/, file:/Users/loick/Documents/magus/
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/notation
+
+server:
+  port: 8086
+
+
+
+
+
+
+
